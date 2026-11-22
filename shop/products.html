@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products — Bazaar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">Bazaar<span>.</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html" class="active">Products</a>
+      <a href="contact.html">Contact</a>
+      <a class="cart-link" href="cart.html">Cart (<span class="count">0</span>)</a>
+    </nav>
+  </header>
+  <main>
+    <h2>All products</h2>
+    <div class="filters">
+      <button class="on" data-cat="All">All</button>
+      <button data-cat="Home">Home</button>
+      <button data-cat="Clothing">Clothing</button>
+      <button data-cat="Accessories">Accessories</button>
+    </div>
+    <div class="grid" id="all"></div>
+  </main>
+  <footer>
+    <div><a href="index.html">Home</a><a href="products.html">Products</a><a href="cart.html">Cart</a><a href="contact.html">Contact</a></div>
+    <div>&copy; 2026 Bazaar — demo shop</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
